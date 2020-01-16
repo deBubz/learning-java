@@ -9,7 +9,7 @@
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "args": "-f 4 2 3 0 0"
+            "args": "-f 4 4 3 0 0"
         },
         {
             "type": "java",
