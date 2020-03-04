@@ -12,10 +12,22 @@
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-App<SimplerCalc>",
+            "name": "Debug (Launch)-App<IsitNy>",
             "request": "launch",
-            "mainClass": "app.App",
-            "projectName": "SimplerCalc"
+            "mainClass": "bubz.App",
+            "projectName": "IsitNy"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Arging",
+            "request": "launch",
+            "mainClass": "Arging"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NextIntString",
+            "request": "launch",
+            "mainClass": "NextIntString",
         }
     ]
 }

@@ -6,7 +6,7 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "Debug (Launch) - Using Arguements",
             "request": "launch",
             "mainClass": "${file}",
             "args": "-f 4 4 3 0 0"
