@@ -10,23 +10,19 @@ public class ReadInt {
     static String[] tens = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
             "eleven", "twelve", "thirteen", "fourteen", "fifteen",
             "sixteen", "seventeen", "eighteen", "nineteen"};
-    static String[] hundreds = {"twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety"};
+    static String[] hundreds = {"twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
 
 
     // lets go
     public static void main(String[] args) {
-        
-        
-        Integer input = InOut.nextInt("Enter a number: ");
+        Integer input = -1;
 
-        while (input != -1) {
+        while ((input = InOut.nextInt("Enter a number: ")) != -1) {
             if (input < 0) { InOut.outln("Too Small"); }
             else if (input < 20) { InOut.outln(print10s(input)); }
             else if (input < 100) { InOut.outln(print100s(input)); }
             else if (input < 1000) { InOut.outln(print1000s(input)); }
             else { InOut.outln("Too big"); }
-
-            input = InOut.nextInt("Enter a number: ");
         }
     }
 
@@ -57,4 +53,5 @@ public class ReadInt {
         return msg;
     
     
+    }
 }

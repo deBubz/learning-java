@@ -13,15 +13,12 @@ public class NumberGroup {
         int count60 = 0;
 
         try {
-            num = InOut.nextInt("NextNum: ");
-            while (num != -1) {
+            while ((num = InOut.nextInt("NextNum: "))!= -1) {
                 if (num < 0) { InOut.outln("Too small"); }
                 else if (num < 20) { count20++; }
                 else if (num < 40) { count40++; }
                 else if (num < 60) { count60++; }
                 else { InOut.outln("Too big"); }
-
-                num = InOut.nextInt("NextNum: ");
             }
         } catch (Exception e) { InOut.outln("Input Error " + e.toString()); }
         

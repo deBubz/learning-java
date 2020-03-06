@@ -21,9 +21,7 @@ public class InOut {
 
     public static int nextInt(String prompt){
         System.out.print(prompt);
-        int i = sc.nextInt();
-        
-        return i;
+        return sc.nextInt();
     }
     
     public static double nextDbl(String prompt){

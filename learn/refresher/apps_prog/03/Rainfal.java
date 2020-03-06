@@ -12,11 +12,9 @@ public class Rainfal {
 
         try {
             System.out.print("Enter your rainfall data: ");
-            rain = InOut.nextDbl("");
 
-            while (rain != -1) {
+            while ((rain = InOut.nextDbl("Next: ")) != -1) {
                 total += rain;
-                rain = InOut.nextDbl("Next: ");
             }
         } catch (Exception e) { System.out.println("Input Error " + e.toString()); }
 
